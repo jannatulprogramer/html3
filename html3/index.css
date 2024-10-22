@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 30px;
+    display:flex;
+    text-align: center;
+    
+}
+.main{
+    background-color: aqua;
+}
+ .main img{
+    
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.child{
+    display: flex;
+    background-color:blue;
+}
+.child img{
+    height: 100px;
+    width: 200px;
+    padding:10px ;
+    margin-top: 60px;
+}
+.child2{
+    display: flex;
+    
+    background-color: yellow;
+    
+}
+.child2 img{
+height: 100px;
+width: 200px;
+padding: 10px;
+margin-top: 50px;
+}
+.parent{
+    color: red;
+    padding: 10px;
+}
+.main button{
+    text-decoration:none;
+    border-radius:25px ;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: yellow;
+}
+.parent button{
+    text-decoration:none;
+    border-radius:25px ;
+    padding: 5px 10px;
+    background-color: yellowgreen;
+}  
+
+
